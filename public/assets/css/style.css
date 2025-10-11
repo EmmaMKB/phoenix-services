@@ -436,7 +436,7 @@ var {
 }
 
 /*---------------------------
-	List Style 
+	List Style
 ---------------------------*/
 ul,
 ol {
@@ -1392,7 +1392,7 @@ iframe {
 }
 
 /*===========================
-Background Image 
+Background Image
 =============================*/
 .bg_image {
   background-repeat: no-repeat;
@@ -1960,7 +1960,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*=============================
-	Overlay styles 
+	Overlay styles
 ==============================*/
 [data-overlay],
 [data-black-overlay],
@@ -8693,8 +8693,8 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   margin-right: 10px;
 }
 .banner-seven-inner-content .title {
-  font-size: 160px;
-  text-transform: uppercase;
+  font-size: 120px;
+  /* text-transform: uppercase; */
   color: #fff;
   font-weight: 800;
   line-height: 1.1;
@@ -24890,7 +24890,7 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
 }
 
 /*=========================
-    Section Separation 
+    Section Separation
 ==========================*/
 .mb_dec--25 {
   margin-bottom: -25px;
