@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
     <title>Phoenix Trading Services</title>
-    <link rel="stylesheet" href="assets/css/plugins/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
-    <link rel="stylesheet" href="assets/css/plugins/metismenu.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnifying-popup.css">
-    <link rel="stylesheet" href="assets/css/plugins/odometer.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins/swiper.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins/metismenu.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins/magnifying-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins/odometer.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet preload" as="style">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body class="onepage">
@@ -33,7 +33,7 @@
                 <div class="col-lg-12">
                     <div class="header-transparent-main-wrapper">
                         <a href="#" class="logo">
-                            <img src="assets/images/logo/02.svg" alt="">
+                            <img src="{{ asset('assets/images/logo/02.png') }}" alt="phoenix-services-logo">
                         </a>
                         <div class="nav-area">
                             <ul>
@@ -81,9 +81,9 @@
                                 Work With Us?
                             </h3>
                             <p class="disc">
-                                Felis consequat magnis est fames sagittis ultrices placerat sodales porttitor quisque.
+                                Get In touch with us and let us help you with what you need.
                             </p>
-                            <a class="rts-btn btn-primary" href="#">Get a Quote</a>
+                            <a class="rts-btn btn-primary" href="#">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--50">
@@ -94,19 +94,36 @@
                             </div>
                             <div class="wized-2-body">
                                 <ul>
-                                    <li><a href="service-details.html"><i
-                                                class="fal fa-chevron-double-right"></i>Business
-                                            planning</a></li>
-                                    <li><a href="service-details.html"><i class="fal fa-chevron-double-right"></i>Tax
-                                            strategy</a></li>
-                                    <li><a href="service-details.html"><i
-                                                class="fal fa-chevron-double-right"></i>Financial
-                                            advices</a></li>
-                                    <li><a href="service-details.html"><i
-                                                class="fal fa-chevron-double-right"></i>Insurance
-                                            strategy</a></li>
-                                    <li><a href="service-details.html"><i class="fal fa-chevron-double-right"></i>Manage
-                                            investment</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fal fa-chevron-double-right">
+                                            </i>Reagants
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fal fa-chevron-double-right">
+                                            </i>Engineering
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fal fa-chevron-double-right">
+                                            </i>Filtration
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fal fa-chevron-double-right">
+                                            </i>Accessories
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fal fa-chevron-double-right">
+                                            </i>Logistics
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -125,7 +142,7 @@
                                     </div>
                                     <div class="disc">
                                         <span>Call Us 24/7</span>
-                                        <a href="#">(+256) 2145.2156</a>
+                                        <a href="tel:+243910552311">+243 910 552 311</a>
                                     </div>
                                 </div>
                                 <div class="contact-info-1">
@@ -134,7 +151,7 @@
                                     </div>
                                     <div class="disc">
                                         <span>Work with us</span>
-                                        <a href="#">info@Invena.com</a>
+                                        <a href="mailto:nfo@phoenixservices.trading">info@phoenixservices.trading</a>
                                     </div>
                                 </div>
                             </div>
@@ -151,8 +168,7 @@
                                     </div>
                                     <div class="disc">
                                         <span>Our Location</span>
-                                        <a href="#">XYZ Hilton Street, 125 Town <br>
-                                            United State</a>
+                                        <a href="#">Lubumbashi, DRC</a>
                                     </div>
                                 </div>
                             </div>
@@ -177,9 +193,7 @@
                             </p>
                             <div class="right">
                                 <ul>
-                                    <li><a href="blog-list.html">Company News</a></li>
-                                    <li><a href="#">Faq</a></li>
-                                    <li><a href="contactus.html">Contact</a></li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -198,7 +212,8 @@
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/01.svg" alt="finbiz_logo"></a>
+            <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/01.svg"
+                    alt="finbiz_logo"></a>
             <div class="body d-none d-xl-block">
                 <p class="disc">
                     We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
@@ -265,48 +280,14 @@
                 </ul>
             </nav>
 
-            <div class="social-wrapper-one">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
         <!-- mobile menu area end -->
     </div>
     <!-- inner menu area desktop End -->
 
 
-    <!-- offcanvase search -->
-    <div class="search-input-area">
-        <div class="container">
-            <div class="search-input-inner">
-                <div class="input-div">
-                    <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
-                    <button><i class="far fa-search"></i></button>
-                </div>
-            </div>
-        </div>
-        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
-    </div>
+
     <div id="anywhere-home" class="">
     </div>
     <!-- rtl btn area start -->
@@ -326,26 +307,26 @@
     </div>
     <!-- progress area end -->
 
-    <script src="assets/js/plugins/jquery.js"></script>
+    <script src="{{ asset('assets/js/plugins/jquery.js') }}"></script>
 
 
 
-    <script src="assets/js/plugins/odometer.js"></script>
-    <script src="assets/js/plugins/jquery-appear.js"></script>
+    <script src="{{ asset('assets/js/plugins/odometer.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/jquery-appear.js') }}"></script>
 
 
-    <script src="assets/js/plugins/gsap.js"></script>
-    <script src="assets/js/plugins/split-text.js"></script>
-    <script src="assets/js/plugins/scroll-trigger.js"></script>
-    <script src="assets/js/plugins/smooth-scroll.js"></script>
-    <script src="assets/js/plugins/metismenu.js"></script>
+    <script src="{{ asset('assets/js/plugins/gsap.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/split-text.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/scroll-trigger.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/smooth-scroll.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/metismenu.js') }}"></script>
 
     <script src="https://html.themewant.com/golfy/assets/js/plugins/magnific-popup.js"></script>
 
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/plugins/swiper.js"></script>
+    <script src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/swiper.js') }}"></script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>
