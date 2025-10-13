@@ -45,6 +45,9 @@
                                     <a href="#about">About</a>
                                 </li>
                                 <li class="main-nav mega-menu">
+                                    <a href="#vision">Vision</a>
+                                </li>
+                                <li class="main-nav mega-menu">
                                     <a href="#service">Service</a>
                                 </li>
                                 <li class="main-nav"><a href="#contact">Contact</a></li>
@@ -52,7 +55,7 @@
                         </div>
 
                         <div class="action-area">
-                            <a href="#" class="rts-btn btn-primary btn-white">Get In Touch</a>
+                            <a href="#contact" class="rts-btn btn-primary btn-white">Get In Touch</a>
                             <button id="menu-btn" class="menu menu-btn ml--20 ml_sm--5">
                                 <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon">
                             </button>
@@ -193,7 +196,7 @@
                             </p>
                             <div class="right">
                                 <ul>
-                                   
+
                                 </ul>
                             </div>
                         </div>
@@ -216,8 +219,10 @@
                     alt="finbiz_logo"></a>
             <div class="body d-none d-xl-block">
                 <p class="disc">
-                    We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
-                    All seds this mistakens idea denouncing pleasures.
+                    We bring you international standard quality goods and
+                            services right to your door steps. We proud ourselves in
+                            the quality of our services, timeless deliveries and high
+                            preformance goods rended to our clients
                 </p>
                 <div class="get-in-touch">
                     <!-- title -->
@@ -227,35 +232,29 @@
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-phone-alt"></i>
-                            <a href="#">+8801234566789</a>
+                            <a href="tel:+243910552311">+243 910 552 311</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-envelope"></i>
-                            <a href="#">example@gmail.com</a>
+                            <a href="mailto:nfo@phoenixservices.trading">info@phoenixservices.trading</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-globe"></i>
-                            <a href="#">www.webexample.com</a>
+                            <a href="#">www.phoenixservices.trading</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-map-marker-alt"></i>
-                            <a href="#">13/A, New Pro State, NYC</a>
+                            <a href="#">Lubumbashi, DRC</a>
                         </div>
                         <!-- single ENd -->
                     </div>
-                    <div class="social-wrapper-two menu">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                        <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -270,11 +269,11 @@
                     <li class="main-nav mega-menu">
                         <a class="main" href="#about">About</a>
                     </li>
+                    <li class="main-nav project-a-after">
+                        <a class="main" href="#vision">Vision</a>
+                    </li>
                     <li class="main-nav mega-menu">
                         <a class="main" href="#service">Service</a>
-                    </li>
-                    <li class="main-nav project-a-after">
-                        <a class="main" href="#blog">Blog</a>
                     </li>
                     <li class="main-nav"><a class="main" href="#contact">Contact</a></li>
                 </ul>
@@ -291,10 +290,7 @@
     <div id="anywhere-home" class="">
     </div>
     <!-- rtl btn area start -->
-    <div class="rtl-ltr-switcher-btn">
-        <span class="rtl show">View RTL</span>
-        <span class="ltr">View LTR</span>
-    </div>
+
     <!-- rtl btn area end -->
 
     <!-- progress area start -->
