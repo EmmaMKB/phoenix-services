@@ -131,7 +131,7 @@
         </div>
     </div>
     <!-- rts-about area end -->
-<!-- rts latest service area start -->
+    <!-- rts latest service area start -->
     <div class="rts-latest-service-area rts-section-gap" id="service">
         <div class="container">
             <div class="row">
@@ -210,14 +210,12 @@
                             </div>
                             <div class="right">
                                 <p class="disc">
-                                    Bulk Bags
-                                    - North Bound Transportation - South Africa - Durban - Johannesburg to DRC - Lubumbashi
-                                    - Likasi - Kambove - Kolwezi.
-                                    - North Bound Transportation - Zambia - Ndola to DRC - Lubumbashi - Likasi - Kambove -
-                                    Kolwezi.
-                                    - South Bound Transportation - DRC - Kolwezi - Kambove - Likasi - Lubumbashi to Zambia -
-                                    Ndola - South Africa - Johannesburg - Durban
+                                    Navigating the complexities of global and local transport can be challenging. Our
+                                    comprehensive logistics services are designed to simplify your operations, reduce costs,
+                                    and ensure your goods move efficiently and reliably from origin to destination.
                                 </p>
+                                <a class="rts-btn btn-primary btn-white" href="{{ route('services.logistics') }}">Read
+                                    More</a>
                             </div>
                         </div>
                     </section>
@@ -253,34 +251,34 @@
 
 
     <!-- contact  area start -->
-        <div class="appoinment-area-seven bg_image ptb--100" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="appoinment-main-wrapper-7">
-                            <form action="#">
-                                <span>Contact</span>
-                                <h4 class="title">Get In Touch With Us</h4>
-                                <div class="input-half-wrapper">
-                                    <div class="signle-input">
-                                        <input type="text" placeholder="Your Name">
-                                    </div>
-                                    <div class="signle-input">
-                                        <input type="text" placeholder="Phone Number">
-                                    </div>
+    <div class="appoinment-area-seven bg_image ptb--100" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="appoinment-main-wrapper-7">
+                        <form action="#">
+                            <span>Contact</span>
+                            <h4 class="title">Get In Touch With Us</h4>
+                            <div class="input-half-wrapper">
+                                <div class="signle-input">
+                                    <input type="text" placeholder="Your Name">
                                 </div>
                                 <div class="signle-input">
-                                    <input type="email" placeholder="Your Email">
+                                    <input type="text" placeholder="Phone Number">
                                 </div>
-                                <div class="signle-input">
-                                    <textarea placeholder="Type Your Message"></textarea>
-                                </div>
-                                <button class="btn-primary rts-btn ">Submit Message</button>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="signle-input">
+                                <input type="email" placeholder="Your Email">
+                            </div>
+                            <div class="signle-input">
+                                <textarea placeholder="Type Your Message"></textarea>
+                            </div>
+                            <button class="btn-primary rts-btn ">Submit Message</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- appoinment  area end -->
+    </div>
+    <!-- appoinment  area end -->
 @endsection
