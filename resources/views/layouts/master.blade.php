@@ -50,6 +50,9 @@
                                 <li class="main-nav mega-menu">
                                     <a href="#service">Service</a>
                                 </li>
+                                <li class="main-nav mega-menu">
+                                    <a href="#service">Logistics Services</a>
+                                </li>
                                 <li class="main-nav"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>

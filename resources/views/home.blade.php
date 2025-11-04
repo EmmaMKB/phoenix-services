@@ -131,33 +131,7 @@
         </div>
     </div>
     <!-- rts-about area end -->
-
-    <!-- rts call to action area start -->
-    <div class="rts-call-to-action-area-two bg_image">
-        <div class="container-full">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="cta-style-two-area">
-                                    <h3 class="title rts-text-anime-style-1">
-                                        Let’s discuss about how we can help <br>
-                                        make your business better
-                                    </h3>
-                                    <a href="#contact" class="rts-btn btn-primary btn-white">Lets Work
-                                        Together</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts call to action area end -->
-
-    <!-- rts latest service area start -->
+<!-- rts latest service area start -->
     <div class="rts-latest-service-area rts-section-gap" id="service">
         <div class="container">
             <div class="row">
@@ -170,7 +144,7 @@
                 </div>
                 <div class="col-lg-12 mt--50">
                     <section class="main-wrapper-sticky">
-                        <div class="sticky-statement">
+                        <div id="service01" class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
                                     <img src="assets/images/service/01.svg" alt="service">
@@ -185,7 +159,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="sticky-statement">
+                        <div id="service02" class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
                                     <img src="assets/images/service/02.svg" alt="service">
@@ -199,7 +173,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="sticky-statement">
+                        <div id="service03" class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
                                     <img src="assets/images/service/03.svg" alt="service">
@@ -212,7 +186,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="sticky-statement">
+                        <div id="service04" class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
                                     <img src="assets/images/service/01.svg" alt="service">
@@ -227,7 +201,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="sticky-statement">
+                        <div id="service05" class="sticky-statement">
                             <div class="left-side">
                                 <div class="icon">
                                     <img src="assets/images/service/01.svg" alt="service">
@@ -252,6 +226,32 @@
         </div>
     </div>
     <!-- rts latest service area end -->
+    <!-- rts call to action area start -->
+    <div class="rts-call-to-action-area-two bg_image mb--100">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="cta-style-two-area">
+                                    <h3 class="title rts-text-anime-style-1">
+                                        Let’s discuss about how we can help <br>
+                                        make your business better
+                                    </h3>
+                                    <a href="#contact" class="rts-btn btn-primary btn-white">Lets Work
+                                        Together</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts call to action area end -->
+
+
     <!-- contact  area start -->
         <div class="appoinment-area-seven bg_image ptb--100" id="contact">
             <div class="container">
