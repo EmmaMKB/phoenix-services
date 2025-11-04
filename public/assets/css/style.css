@@ -11355,10 +11355,27 @@ section.main-wrapper-sticky .sticky-statement {
 section.main-wrapper-sticky .sticky-statement * {
   transition: 0.3s;
 }
-section.main-wrapper-sticky .sticky-statement:hover {
-  background-image: url(../images/service/06.webp);
+section.main-wrapper-sticky .sticky-statement#service01:hover {
+  background-image: url(../images/service/01.jpg);
   background-position: center center;
 }
+section.main-wrapper-sticky .sticky-statement#service02:hover {
+    background-image: url(../images/service/02.jpg);
+    background-position: center center;
+}
+section.main-wrapper-sticky .sticky-statement#service03:hover {
+    background-image: url(../images/service/03.jpg);
+    background-position: center center;
+}
+section.main-wrapper-sticky .sticky-statement#service04:hover {
+    background-image: url(../images/service/04.jpg);
+    background-position: center center;
+}
+section.main-wrapper-sticky .sticky-statement#service05:hover {
+    background-image: url(../images/service/05.jpg);
+    background-position: center center;
+}
+
 section.main-wrapper-sticky .sticky-statement:hover .left-side img {
   filter: brightness(0) saturate(100%) invert(97%) sepia(97%) saturate(0%) hue-rotate(325deg) brightness(102%) contrast(100%);
 }
@@ -11957,7 +11974,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   margin-bottom: 12px;
 }
 .rts-service-main-wrapper-10 .signle-service-style-10 .content-area-wrapper p.disc {
-  margin-bottom: 14px;
+  margin-bottom: 4px;
 }
 .rts-service-main-wrapper-10 .signle-service-style-10 .content-area-wrapper .arrow-right-btn {
   display: flex;
