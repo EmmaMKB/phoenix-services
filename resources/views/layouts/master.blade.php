@@ -32,13 +32,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-transparent-main-wrapper">
-                        <a href="#" class="logo">
+                        <a href="{{ route('home') }}" class="logo">
                             <img src="{{ asset('assets/images/logo/02.png') }}" alt="phoenix-services-logo">
                         </a>
                         <div class="nav-area">
                             <ul>
                                 <li class="main-nav mega-menu project-a-after">
-                                    <a href="#home">Home</a>
+                                    <a href="{{ route('home') }}">Home</a>
                                 </li>
 
                                 <li class="main-nav mega-menu">
@@ -51,7 +51,7 @@
                                     <a href="#service">Service</a>
                                 </li>
                                 <li class="main-nav mega-menu">
-                                    <a href="#service">Logistics Services</a>
+                                    <a href="{{ route('services.logistics') }}">Logistics Services</a>
                                 </li>
                                 <li class="main-nav"><a href="#contact">Contact</a></li>
                             </ul>
@@ -60,7 +60,7 @@
                         <div class="action-area">
                             <a href="#contact" class="rts-btn btn-primary btn-white">Get In Touch</a>
                             <button id="menu-btn" class="menu menu-btn ml--20 ml_sm--5">
-                                <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon">
+                                <img class="menu-light" src="{{ asset('assets/images/icons/01.svg') }}" alt="Menu-icon">
                             </button>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                         <div class="footer-two-single-wized two">
                             <div class="wized-title-area">
                                 <h5 class="wized-title">Our Services</h5>
-                                <img src="assets/images/footer/01.png" alt="Invena_Footer">
+                                <img src="{{ asset('assets/images/footer/01.png') }}" >
                             </div>
                             <div class="wized-2-body">
                                 <ul>
@@ -139,7 +139,7 @@
                         <div class="footer-two-single-wized">
                             <div class="wized-title-area">
                                 <h5 class="wized-title">Contact Us</h5>
-                                <img src="assets/images/footer/01.png" alt="Invena_Footer">
+                                <img src="{{ asset('assets/images/footer/01.png') }}" alt="Invena_Footer">
                             </div>
                             <div class="wized-2-body">
                                 <div class="contact-info-1">
@@ -218,8 +218,8 @@
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/01.svg"
-                    alt="finbiz_logo"></a>
+            <a class="logo-1" href="{{ route('home') }}"><img class="logo" src="{{ asset('assets/images/logo/01.png') }}"
+                    alt="phoenix_logo"></a>
             <div class="body d-none d-xl-block">
                 <p class="disc">
                     We bring you international standard quality goods and
@@ -265,17 +265,19 @@
         <div class="mobile-menu d-block d-xl-none">
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li class="main-nav mega-menu project-a-after">
+                    <li class="main-nav">
                         <a class="main" href="#home">Home</a>
                     </li>
-
-                    <li class="main-nav mega-menu">
+                    <li class="main-nav">
                         <a class="main" href="#about">About</a>
                     </li>
                     <li class="main-nav project-a-after">
                         <a class="main" href="#vision">Vision</a>
                     </li>
-                    <li class="main-nav mega-menu">
+                    <li class="main-nav project-a-after">
+                        <a class="main" href="{{ route('services.logistics') }}">Logistics Services</a>
+                    </li>
+                    <li class="main-nav">
                         <a class="main" href="#service">Service</a>
                     </li>
                     <li class="main-nav"><a class="main" href="#contact">Contact</a></li>
